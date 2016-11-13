@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C4E44001DD8C58500CF884E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E43FF1DD8C58500CF884E /* AppDelegate.swift */; };
+		2C4E44021DD8C58500CF884E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E44011DD8C58500CF884E /* ViewController.swift */; };
+		2C4E44051DD8C58500CF884E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4E44031DD8C58500CF884E /* Main.storyboard */; };
+		2C4E44071DD8C58500CF884E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4E44061DD8C58500CF884E /* Assets.xcassets */; };
+		2C4E440A1DD8C58500CF884E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4E44081DD8C58500CF884E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C4E43FC1DD8C58500CF884E /* Egg Timer Rob Solution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Egg Timer Rob Solution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4E43FF1DD8C58500CF884E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C4E44011DD8C58500CF884E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C4E44041DD8C58500CF884E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C4E44061DD8C58500CF884E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C4E44091DD8C58500CF884E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C4E440B1DD8C58500CF884E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C4E43F91DD8C58500CF884E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C4E43F31DD8C58500CF884E = {
+			isa = PBXGroup;
+			children = (
+				2C4E43FE1DD8C58500CF884E /* Egg Timer Rob Solution */,
+				2C4E43FD1DD8C58500CF884E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C4E43FD1DD8C58500CF884E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C4E43FC1DD8C58500CF884E /* Egg Timer Rob Solution.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C4E43FE1DD8C58500CF884E /* Egg Timer Rob Solution */ = {
+			isa = PBXGroup;
+			children = (
+				2C4E43FF1DD8C58500CF884E /* AppDelegate.swift */,
+				2C4E44011DD8C58500CF884E /* ViewController.swift */,
+				2C4E44031DD8C58500CF884E /* Main.storyboard */,
+				2C4E44061DD8C58500CF884E /* Assets.xcassets */,
+				2C4E44081DD8C58500CF884E /* LaunchScreen.storyboard */,
+				2C4E440B1DD8C58500CF884E /* Info.plist */,
+			);
+			path = "Egg Timer Rob Solution";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C4E43FB1DD8C58500CF884E /* Egg Timer Rob Solution */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C4E440E1DD8C58500CF884E /* Build configuration list for PBXNativeTarget "Egg Timer Rob Solution" */;
+			buildPhases = (
+				2C4E43F81DD8C58500CF884E /* Sources */,
+				2C4E43F91DD8C58500CF884E /* Frameworks */,
+				2C4E43FA1DD8C58500CF884E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Egg Timer Rob Solution";
+			productName = "Egg Timer Rob Solution";
+			productReference = 2C4E43FC1DD8C58500CF884E /* Egg Timer Rob Solution.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C4E43F41DD8C58500CF884E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "sophea chea";
+				TargetAttributes = {
+					2C4E43FB1DD8C58500CF884E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2C4E43F71DD8C58500CF884E /* Build configuration list for PBXProject "Egg Timer Rob Solution" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C4E43F31DD8C58500CF884E;
+			productRefGroup = 2C4E43FD1DD8C58500CF884E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C4E43FB1DD8C58500CF884E /* Egg Timer Rob Solution */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C4E43FA1DD8C58500CF884E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C4E440A1DD8C58500CF884E /* LaunchScreen.storyboard in Resources */,
+				2C4E44071DD8C58500CF884E /* Assets.xcassets in Resources */,
+				2C4E44051DD8C58500CF884E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C4E43F81DD8C58500CF884E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C4E44021DD8C58500CF884E /* ViewController.swift in Sources */,
+				2C4E44001DD8C58500CF884E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C4E44031DD8C58500CF884E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C4E44041DD8C58500CF884E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C4E44081DD8C58500CF884E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C4E44091DD8C58500CF884E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C4E440C1DD8C58500CF884E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C4E440D1DD8C58500CF884E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C4E440F1DD8C58500CF884E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Egg Timer Rob Solution/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sophea.Egg-Timer-Rob-Solution";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2C4E44101DD8C58500CF884E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Egg Timer Rob Solution/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sophea.Egg-Timer-Rob-Solution";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C4E43F71DD8C58500CF884E /* Build configuration list for PBXProject "Egg Timer Rob Solution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4E440C1DD8C58500CF884E /* Debug */,
+				2C4E440D1DD8C58500CF884E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C4E440E1DD8C58500CF884E /* Build configuration list for PBXNativeTarget "Egg Timer Rob Solution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4E440F1DD8C58500CF884E /* Debug */,
+				2C4E44101DD8C58500CF884E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C4E43F41DD8C58500CF884E /* Project object */;
+}
